@@ -1,41 +1,13 @@
-# Prerequisites
-*.d
+# --- Específico de Code::Blocks ---
+*.layout     # Guarda la posición de las ventanas y archivos abiertos
+*.depend     # Archivos de dependencia interna
+*.workspace  # Solo si no quieres compartir el espacio de trabajo completo
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# --- Resultados de Compilación ---
+bin/         # Carpeta donde se guarda el ejecutable final
+obj/         # Carpeta de archivos objeto (.o)
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# --- Archivos temporales y de depuración ---
 *.exe
 *.out
 *.app
-
-# debug information files
-*.dwo
